@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '../../context/useAuth';
 import { Eye, EyeOff, Mail, Lock, User, Phone, UserCheck } from 'lucide-react';
 
 const RegisterForm = ({ onSwitchToLogin }) => {

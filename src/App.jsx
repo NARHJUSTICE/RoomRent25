@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
-import { AuthProvider, useAuth } from './context/AuthContext';
+import { AuthProvider } from './context/AuthContext';
+import { useAuth } from './context/useAuth';
 import LoginForm from './components/auth/LoginForm';
 import RegisterForm from './components/auth/RegisterForm';
 import SubscriptionPrompt from './components/subscription/SubscriptionPrompt';

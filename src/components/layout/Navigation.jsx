@@ -1,6 +1,6 @@
 import React from 'react';
 import { Home, Building, User, CreditCard, LogOut, Search, Plus } from 'lucide-react';
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '../../context/useAuth';
 
 const Navigation = ({ activeTab, setActiveTab }) => {
   const { user, logout } = useAuth();

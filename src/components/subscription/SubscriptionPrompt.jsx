@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { loadStripe } from '@stripe/stripe-js';
 import { Elements, CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
 import { CreditCard, Check, AlertCircle } from 'lucide-react';
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '../../context/useAuth';
 import axios from 'axios';
 import toast from 'react-hot-toast';
 
